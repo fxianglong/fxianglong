@@ -45,7 +45,7 @@
     {
       "repo": "leetcode",
       "title": "LeetCode 题解",
-      "desc": "180 余道题的 C++ 解法，按题号整理",
+      "desc": "180 余道题的 C++ 解法：LeetCode、剑指 Offer 与牛客网，附题号索引",
       "lang": "C++"
     }
   ],
