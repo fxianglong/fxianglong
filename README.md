@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Xianglong Feng · C++ 开发 · 工业软件 · 数字孪生"/>
+<img src="./assets/banner.svg" width="100%" alt="Xianglong Feng · C++ 开发 · 图形界面 · Linux"/>
 
 <p>
   <a href="https://blog.csdn.net/weixin_44826356"><img src="https://img.shields.io/badge/CSDN-海盗船长y-FC5531?style=for-the-badge&logo=csdn&logoColor=white" alt="CSDN"/></a>
@@ -18,9 +18,9 @@
 
 **我在做什么**
 
-- 🏭 工业设备监测软件：数据采集、振动指标、加工段分析、数字孪生
-- 🖥️ 桌面端用 **C++ · Dear ImGui · OpenGL**，偶尔 Qt
-- 🐧 顺手管着几台 Linux / Slurm 集群，踩过的坑都写进了博客
+- 🖥️ C++ 桌面软件开发，常用 **Dear ImGui · OpenGL**，偶尔 Qt
+- 🐧 Linux 系统编程、服务器运维与排错，踩过的坑都写进了博客
+- 🧠 数据结构、内存池、网络编程等底层知识的练习与总结
 - 🤖 业余写 AstrBot 插件，最近在做基金记账与组合体检
 
 </td>
@@ -52,7 +52,6 @@
   <br/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
-  <img src="https://img.shields.io/badge/Slurm_HPC-2C3E50?style=flat-square&logo=linuxfoundation&logoColor=white" alt="Slurm"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
