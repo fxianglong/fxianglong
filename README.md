@@ -83,7 +83,7 @@
 
 <!-- CSDN-LATEST:START -->
 - `2026-08-31` [麒麟系统部署 Windows 虚拟机全流程实战：从安装到扩容避坑指南](https://blog.csdn.net/weixin_44826356/article/details/164214184)
-- `2026-05-09` [避坑指南：Ubuntu 启动报错 “Unable to mount root fs” 的深层诱因与修复](https://blog.csdn.net/weixin_44826356/article/details/160919417)
+- `2026-05-09` [避坑指南：Ubuntu 启动报错 “Unable to mount root fs“ 的深层诱因与修复](https://blog.csdn.net/weixin_44826356/article/details/160919417)
 - `2026-01-29` [程序员必备工具：使用 cloc 统计项目代码量](https://blog.csdn.net/weixin_44826356/article/details/157515208)
 - `2026-01-22` [解决 “Failed to start VNC server” 及 VNC 僵尸进程清理](https://blog.csdn.net/weixin_44826356/article/details/157251370)
 - `2025-10-15` [Ubuntu 搭建 Samba 文件共享服务器完全指南](https://blog.csdn.net/weixin_44826356/article/details/153318855)

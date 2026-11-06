@@ -1,17 +1,70 @@
 {
   "updated": "2026-11-06",
   "views": 384707,
-  "articles": 156,
+  "articles": 0,
   "likes": 2351,
   "favorites": 2554,
   "fans": 327,
   "rank": 9808,
-  "columns": [["C++", 38], ["易混淆知识点", 21], ["C 语言", 21], ["MySQL", 17], ["Linux", 16], ["网络原理", 11], ["Java Web", 8], ["Docker", 8]],
+  "columns": [
+    [
+      "C++",
+      38
+    ],
+    [
+      "易混淆知识点",
+      21
+    ],
+    [
+      "C 语言",
+      21
+    ],
+    [
+      "MySQL",
+      17
+    ],
+    [
+      "Linux",
+      16
+    ],
+    [
+      "网络原理",
+      11
+    ],
+    [
+      "Java Web",
+      8
+    ],
+    [
+      "Docker",
+      8
+    ]
+  ],
   "latest": [
-    {"title": "麒麟系统部署 Windows 虚拟机全流程实战：从安装到扩容避坑指南", "url": "https://blog.csdn.net/weixin_44826356/article/details/164214184", "date": "2026-08-31"},
-    {"title": "避坑指南：Ubuntu 启动报错 “Unable to mount root fs” 的深层诱因与修复", "url": "https://blog.csdn.net/weixin_44826356/article/details/160919417", "date": "2026-05-09"},
-    {"title": "程序员必备工具：使用 cloc 统计项目代码量", "url": "https://blog.csdn.net/weixin_44826356/article/details/157515208", "date": "2026-01-29"},
-    {"title": "解决 “Failed to start VNC server” 及 VNC 僵尸进程清理", "url": "https://blog.csdn.net/weixin_44826356/article/details/157251370", "date": "2026-01-22"},
-    {"title": "Ubuntu 搭建 Samba 文件共享服务器完全指南", "url": "https://blog.csdn.net/weixin_44826356/article/details/153318855", "date": "2025-10-15"}
+    {
+      "title": "麒麟系统部署 Windows 虚拟机全流程实战：从安装到扩容避坑指南",
+      "url": "https://blog.csdn.net/weixin_44826356/article/details/164214184",
+      "date": "2026-08-31"
+    },
+    {
+      "title": "避坑指南：Ubuntu 启动报错 “Unable to mount root fs“ 的深层诱因与修复",
+      "url": "https://blog.csdn.net/weixin_44826356/article/details/160919417",
+      "date": "2026-05-09"
+    },
+    {
+      "title": "程序员必备工具：使用 cloc 统计项目代码量",
+      "url": "https://blog.csdn.net/weixin_44826356/article/details/157515208",
+      "date": "2026-01-29"
+    },
+    {
+      "title": "解决 “Failed to start VNC server” 及 VNC 僵尸进程清理",
+      "url": "https://blog.csdn.net/weixin_44826356/article/details/157251370",
+      "date": "2026-01-22"
+    },
+    {
+      "title": "Ubuntu 搭建 Samba 文件共享服务器完全指南",
+      "url": "https://blog.csdn.net/weixin_44826356/article/details/153318855",
+      "date": "2025-10-15"
+    }
   ]
 }
