@@ -1,0 +1,24 @@
+{
+  "login": "fxianglong",
+  "name": "Xianglong Feng",
+  "nickname": "海盗船长y",
+  "tagline": "C++ 开发 · 工业软件 · 数字孪生",
+  "roles": ["C++ / Dear ImGui / OpenGL 桌面软件", "工业设备数据采集与振动分析", "Linux · HPC 集群运维踩坑记录", "AstrBot 插件 · 投资记账小工具"],
+  "csdn_url": "https://blog.csdn.net/weixin_44826356",
+  "csdn_rss": "https://rss.csdn.net/weixin_44826356/rss/map",
+  "featured": [
+    {"repo": "astrbot_plugin_fund_board", "title": "基金持仓看板", "desc": "AstrBot 插件：截图导入持仓、收益与基准对比、重仓股穿透体检、定投与复盘、AI 周报", "lang": "Python"},
+    {"repo": "concurrent_memory_pools", "title": "高并发内存池", "desc": "仿 tcmalloc 的三层结构：ThreadCache / CentralCache / PageCache，减少锁竞争", "lang": "C++"},
+    {"repo": "opencv-self-learning", "title": "OpenCV 学习笔记", "desc": "从像素操作、颜色空间、直方图到卷积与二值化，每章配示例代码", "lang": "C++"},
+    {"repo": "LinuxVm", "title": "Linux 系统编程", "desc": "进程、管道、select / epoll、socket、多线程与迷你 shell 实践", "lang": "C"},
+    {"repo": "P2P-", "title": "局域网 P2P 下载器", "desc": "基于 cpp-httplib 的局域网文件共享：主机发现、文件列表与分块下载", "lang": "C++"},
+    {"repo": "leetcode", "title": "LeetCode 题解", "desc": "180 余道题的 C++ 解法，按题号整理", "lang": "C++"}
+  ],
+  "hot_articles": [
+    {"title": "SQL 多表查询常用语句总结", "url": "https://blog.csdn.net/weixin_44826356/article/details/131156745", "views": 4518},
+    {"title": "Ubuntu 搭建 Samba 文件共享服务器完全指南", "url": "https://blog.csdn.net/weixin_44826356/article/details/153318855", "views": 3494},
+    {"title": "Visual Studio 无法启动调试：未能处理配置文件", "url": "https://blog.csdn.net/weixin_44826356/article/details/142434684", "views": 3090},
+    {"title": "了解 ceil 和 floor 函数：C++ 中的取整函数", "url": "https://blog.csdn.net/weixin_44826356/article/details/131178398", "views": 2927},
+    {"title": "SQL 视图、存储过程、触发器", "url": "https://blog.csdn.net/weixin_44826356/article/details/131158642", "views": 2300}
+  ]
+}

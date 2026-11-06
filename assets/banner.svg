@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1e1b4b"/><stop offset="0.55" stop-color="#312e81"/><stop offset="1" stop-color="#0e7490"/>
+  </linearGradient>
+  <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.06"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="300" rx="20"/></clipPath>
+  <style>
+    .name{font:800 64px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#fff;letter-spacing:1px}
+    .tag{font:500 26px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:url(#hl)}
+    .role{font:400 22px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#e0e7ff}
+    .mono{font:500 15px 'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#a5b4fc}
+    .chip{font:600 14px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#e0f2fe}
+  </style>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <circle cx="1040" cy="60" r="160" fill="#22d3ee" opacity="0.12"><animate attributeName="r" values="150;175;150" dur="8s" repeatCount="indefinite"/></circle>
+  <circle cx="940" cy="280" r="120" fill="#a78bfa" opacity="0.14"><animate attributeName="cy" values="280;250;280" dur="10s" repeatCount="indefinite"/></circle>
+  <path d="M0 250 C 200 210, 400 290, 600 250 S 1000 210, 1200 250 V300 H0Z" fill="#ffffff" opacity="0.06">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" values="M0 250 C 200 210, 400 290, 600 250 S 1000 210, 1200 250 V300 H0Z;M0 245 C 220 280, 420 220, 620 255 S 980 280, 1200 240 V300 H0Z;M0 250 C 200 210, 400 290, 600 250 S 1000 210, 1200 250 V300 H0Z"/>
+  </path>
+  <text x="80" y="62" class="mono">$ whoami</text>
+  <text x="80" y="132" class="name">Xianglong Feng</text>
+  <text x="80" y="174" class="tag">C++ 开发 · 工业软件 · 数字孪生</text>
+  <text x="80" y="214" class="role" opacity="0">C++ / Dear ImGui / OpenGL 桌面软件<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0200;0.2300;0.2500;1" dur="12s" repeatCount="indefinite"/></text><text x="80" y="214" class="role" opacity="0">工业设备数据采集与振动分析<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2500;0.2700;0.4800;0.5000;1" dur="12s" repeatCount="indefinite"/></text><text x="80" y="214" class="role" opacity="0">Linux · HPC 集群运维踩坑记录<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5000;0.5200;0.7300;0.7500;1" dur="12s" repeatCount="indefinite"/></text><text x="80" y="214" class="role" opacity="0">AstrBot 插件 · 投资记账小工具<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7500;0.7700;0.9800;1.0000;1" dur="12s" repeatCount="indefinite"/></text>
+  <rect x="80" y="234" width="2" height="24" fill="#67e8f9"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  <g transform="translate(900,120)">
+    <rect width="220" height="120" rx="14" fill="#0f172a" opacity="0.55" stroke="#ffffff" stroke-opacity="0.15"/>
+    <circle cx="20" cy="18" r="5" fill="#f87171"/><circle cx="36" cy="18" r="5" fill="#fbbf24"/><circle cx="52" cy="18" r="5" fill="#34d399"/>
+    <text x="18" y="52" class="mono">#include &lt;life&gt;</text>
+    <text x="18" y="76" class="mono" fill="#67e8f9">while (alive) {</text>
+    <text x="34" y="98" class="mono">learn(); share();</text>
+    <text x="18" y="116" class="mono">}</text>
+  </g>
+  <g transform="translate(900,62)">
+    <rect width="130" height="30" rx="15" fill="#ffffff" fill-opacity="0.12"/>
+    <text x="65" y="20" text-anchor="middle" class="chip">CSDN · 海盗船长y</text>
+  </g>
+</g>
+</svg>
