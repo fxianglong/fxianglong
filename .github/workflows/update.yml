@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+# 同一时间只跑一个，避免手动触发和自动触发同时推送互相冲突
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,5 +33,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "chore: 自动更新主页数据"
-          git push
+          if git diff --cached --quiet; then echo "没有变化"; exit 0; fi
+          git commit -m "chore: 自动更新主页数据"
+          # 运行期间如果有新提交（比如刚改了 README），先合并再推送，最多重试 3 次
+          for i in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase -X theirs origin main || { git rebase --abort; exit 1; }
+            sleep 3
+          done
+          exit 1

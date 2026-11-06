@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-snake
+  cancel-in-progress: true
+
 jobs:
   snake:
     runs-on: ubuntu-latest
