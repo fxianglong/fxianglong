@@ -312,7 +312,8 @@ def fetch_csdn(p: dict, old: dict) -> dict:
                     "fans": r'"?fansCount"?\s*[:=]\s*"?(\d+)'}
         for k, pat in patterns.items():
             m = re.search(pat, page)
-            if m:
+            # 这些数字只会增长：抓到的值明显变小说明匹配错了，保留旧值
+            if m and int(m.group(1)) >= old.get(k, 0) * 0.9:
                 new[k] = int(m.group(1))
     except Exception as e:  # noqa: BLE001
         print("csdn page failed", e, file=sys.stderr)
