@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-07",
-  "public_repos": 67,
-  "original_repos": 15,
+  "updated": "2026-11-08",
+  "public_repos": 68,
+  "original_repos": 16,
   "stars": 10,
-  "followers": 5,
-  "contributions": 24,
+  "followers": 6,
+  "contributions": 25,
   "languages": [
     [
       "C++",
@@ -12,7 +12,7 @@
     ],
     [
       "Python",
-      279579
+      438289
     ],
     [
       "HTML",
@@ -33,6 +33,7 @@
     "AirSim": 0,
     "ARTEX": 0,
     "astrbot_plugin_fund_board": 1,
+    "astrbot_plugin_mist_detective": 0,
     "autogpt-gui": 0,
     "awesome": 0,
     "awesome-computer-vision": 0,
